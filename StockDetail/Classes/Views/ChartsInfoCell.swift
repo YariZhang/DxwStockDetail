@@ -163,7 +163,7 @@ class ChartsInfoCell: UITableViewCell {
         weak var masV   : UIView!
         var muti : CGFloat?
         
-        let infoData        = isArr ? (cellData as! Array<Dictionary<String , AnyObject>>) : cellData!["data"] as! Array<Dictionary<String , AnyObject>>
+        let infoData        = (isArr ? (cellData as? Array<Dictionary<String , AnyObject>>) : cellData!["data"] as? Array<Dictionary<String , AnyObject>>) ?? Array()
 
         if let p = cellData["para"] as? Dictionary<String , AnyObject> , !isArr {
             param           = p
