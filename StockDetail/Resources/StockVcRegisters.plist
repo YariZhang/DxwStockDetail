@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>/zixuan/0/hangye/detail</key>
-	<string>StockDetail.StockIndustryViewController</string>
+	<string>DxwStockDetail.StockIndustryViewController</string>
 	<key>/zixuan/0/dapan/detail</key>
-	<string>StockDetail.StockMarketViewController</string>
+	<string>DxwStockDetail.StockMarketViewController</string>
 	<key>/zixuan/0/bankuai/detail</key>
-	<string>StockDetail.StockConceptDetailController</string>
+	<string>DxwStockDetail.StockConceptDetailController</string>
 	<key>/zixuan/0/gegu/detail</key>
-	<string>StockDetail.StockSingleDetailController</string>
+	<string>DxwStockDetail.StockSingleDetailController</string>
 </dict>
 </plist>
