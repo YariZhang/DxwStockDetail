@@ -48,15 +48,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         var vc: UIViewController!
         switch indexPath.row {
         case 0:
-            QCGURLRouter.shareInstance.route(withUrl: URL(string: "/zixuan/0/gegu/detail")!, param: d[d.keys.first + ""])
+            QCGURLRouter.shareInstance.route(withUrl: URL(string: "/zixuan/0/gegu/detail")!, param: d[d.keys.first!])
             return
             //vc = StockSingleDetailController(parameters: d[d.keys.first + ""])
         case 1:
-            vc = StockIndustryViewController(parameters: d[d.keys.first + ""])
+            vc = StockIndustryViewController(parameters: d[d.keys.first!])
         case 2:
-            vc = StockConceptDetailController(parameters: d[d.keys.first + ""])
+            vc = StockConceptDetailController(parameters: d[d.keys.first!])
         case 3:
-            vc = StockMarketViewController(parameters: d[d.keys.first + ""])
+            vc = StockMarketViewController(parameters: d[d.keys.first!])
         default:
             break
         }

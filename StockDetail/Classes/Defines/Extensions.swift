@@ -237,7 +237,7 @@ class UtilColor: NSObject {
 }
 
 //Any转String
-public func +(left : Any?, right : String) -> String {
+func +(left : Any?, right : String) -> String {
     return left == nil ? "" : "\(left!)" + right
 }
 
