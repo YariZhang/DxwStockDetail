@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>/zixuan/0/hangye/detail</key>
+	<string>StockDetail.StockIndustryViewController</string>
+	<key>/zixuan/0/dapan/detail</key>
+	<string>StockDetail.StockMarketViewController</string>
+	<key>/zixuan/0/bankuai/detail</key>
+	<string>StockDetail.StockConceptDetailController</string>
+	<key>/zixuan/0/gegu/detail</key>
+	<string>StockDetail.StockSingleDetailController</string>
+</dict>
+</plist>

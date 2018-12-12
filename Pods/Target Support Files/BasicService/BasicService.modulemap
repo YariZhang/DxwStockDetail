@@ -1,0 +1,6 @@
+framework module BasicService {
+  umbrella header "BasicService-umbrella.h"
+
+  export *
+  module * { export * }
+}
